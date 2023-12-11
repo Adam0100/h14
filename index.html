@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление товарами</title>
+    <style>
+        input,
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Управление товарами</h2>
+
+    <label for="productName">Название товара:</label>
+    <input type="text" id="productName">
+    <button id="addProduct">Добавить товар</button>
+
+    <label for="searchProduct">Поиск товара:</label>
+    <input type="text" id="searchProduct">
+    <button id="searchBtn">Искать товар</button>
+
+    <label for="removeProduct">Название товара для удаления:</label>
+    <input type="text" id="removeProduct">
+    <button id="removeBtn">Удалить товар</button>
+
+    <button id="showAllBtn">Все товары</button>
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
